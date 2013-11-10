@@ -1,3 +1,5 @@
 language: perl
 perl:
     - "5.16"
+install: 'carton install'
+script: 'prove -Ilocal -Ilib -r t/'
