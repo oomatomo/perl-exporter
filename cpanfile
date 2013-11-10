@@ -1,2 +1,3 @@
 
 requires 'Exporter';
+requires 'Moose';
