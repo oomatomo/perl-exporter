@@ -1,4 +1,3 @@
-
 use strict;
 use warnings;
 use Test::More;
@@ -24,7 +23,6 @@ subtest 'check export_ok' => sub {
 subtest 'check export_tag' => sub {
   my $base = Base3->new();
   is( $base->one(), 1, 'one ok');
-  is( $base->two(), 2, 'two ok');
   is( $base->three(), 3,'tree ok');
 };
 
